@@ -28,22 +28,38 @@ A mobile application that helps users detect food allergens by scanning product 
 frontend/
 backend/
 
-Setup Instructions
-Backend
+##  Setup Instructions
+
+### Backend
+
+```
 cd backend/config
 python manage.py runserver 0.0.0.0:8000
-Frontend
+```
+
+---
+
+### Frontend
+
+```
 cd frontend
 npm install
 npx expo start
-Important Note
-This project runs on a private network
-You may need to update the API base URL (IP address) in the frontend code to match your system
+```
+
+---
+
+## Important Note
+
+* This project runs on a **private network**
+* You may need to update the **API base URL (IP address)** in the frontend code to match your system
+
 Example:
 
+```
 http://192.168.x.x:8000/api/
+```
 
-# Backend
-cd backend
-pip install -r requirements.txt
-python manage.py runserver
+---
+
+
